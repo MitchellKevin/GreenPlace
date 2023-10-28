@@ -1,4 +1,44 @@
 body{
     margin: 0;
-    background-color: #ffbe;
+    background-color: #FEFBE1;
 }
+
+/* Home page */
+
+.icon_flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon_flex-container img{
+    width: 5em;
+    height: 4em;
+}
+
+.title_home{
+    width: 20em;
+}
+
+.scroll_down_home{
+    width: 5em;
+}
+
+.Title , .Globe, .Scroll_Down{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.Scroll_Down{
+    animation: animate 3s infinite;
+}
+
+@keyframes animate{
+    from{opacity: 0;}
+    50%{opacity: 1;}
+    to{opacity: 0;}
+
+}
+
