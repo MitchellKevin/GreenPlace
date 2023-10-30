@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+
 body{
     margin: 0;
     background-color: #FEFBE1;
@@ -34,12 +36,35 @@ body{
 .Scroll_Down{
     animation: animate 3s infinite;
 }
-
-section .inleiding{
-    color: #B6D592;
-    display: flex;
-    justify-content: center;
+.Globe{
+    animation: zoom 6s ease-in infinite;
 }
+.inleiding, .why, .interview{
+    margin: 2em;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+.why{
+    text-align: left !important;
+}
+.interview{
+    text-align: right !important;
+}
+.inleiding_title, .why_title, .interview_title{
+    font-size: 4em;
+    color: #B6D592;
+}
+
+.inleiding_text, .why_text, .interview_text{
+    font-size: 1.4em;
+    color: #5BC5F2;
+}
+.icon:hover{
+    animation: ease-in-out;
+    transform: scale(1.1,1.1);
+}
+
 
 
 /* Animations */
@@ -48,6 +73,17 @@ section .inleiding{
     from{opacity: 0;}
     50%{opacity: 1;}
     to{opacity: 0;}
+}
 
+@keyframes zoom{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
 }
 
