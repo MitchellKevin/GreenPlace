@@ -35,7 +35,11 @@ body{
     animation: animate 3s infinite;
 }
 
-
+section .inleiding{
+    color: #B6D592;
+    display: flex;
+    justify-content: center;
+}
 
 
 /* Animations */
