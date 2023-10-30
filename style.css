@@ -35,6 +35,11 @@ body{
     animation: animate 3s infinite;
 }
 
+
+
+
+/* Animations */
+
 @keyframes animate{
     from{opacity: 0;}
     50%{opacity: 1;}
