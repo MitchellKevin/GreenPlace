@@ -62,8 +62,12 @@ body{
     font-size: 1.4em;
     color: #5BC5F2;
 }
+.icon{
+    animation: ease-out;
+    transform: scale(1,1);
+}
 .icon:hover{
-    animation: ease-in-out;
+    animation: ease-in;
     transform: scale(1.1,1.1);
 }
 
