@@ -40,23 +40,25 @@ body{
     animation: zoom 6s ease-in infinite;
 }
 .inleiding, .why, .interview{
-    margin: 2em;
     flex-direction: column;
     display: flex;
     text-align: center;
 }
-.why{
+/* .why{
     text-align: left !important;
 }
 .interview{
     text-align: right !important;
-}
+} */
 .inleiding_title, .why_title, .interview_title{
+    width: 100%;
+    background-color: #B6D592;
     font-size: 4em;
-    color: #B6D592;
+    color: #FEFBE1;
 }
 
 .inleiding_text, .why_text, .interview_text{
+    margin: 2em;
     font-size: 1.4em;
     color: #5BC5F2;
 }
