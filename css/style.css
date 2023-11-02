@@ -103,6 +103,10 @@ header * {
 }
 /*  */
 /* sidePage css */
+p{
+    color: #FDE5D4;
+}
+
 .intro{
     margin: 2em;
     display: flex;
@@ -114,7 +118,7 @@ header * {
     margin: 0.5em;
     justify-content: space-between;
     text-align: end;
-    border: 3px black solid;
+    border: 3px # solid;
     display: flex;
     flex-direction: row;
 }
@@ -122,7 +126,7 @@ header * {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: burlywood;
+    background-color: #FDE5D4;
     width: 8em;
     height: 8em;
 }
