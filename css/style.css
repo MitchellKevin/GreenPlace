@@ -3,14 +3,14 @@
 body{
     overflow-x: hidden;
     margin: 0;
-    background-color: #FEFBE1;
+    background-color: #445D48;
 }
 
 /* Home page */
 /* Header */
 header {
-    border: 3px solid #B6D592;
-    background-color: #FEFBE1;  
+    border: 3px solid #FDE5D4;
+    background-color: #445D48;  
     position: fixed;  
     left: 5px;  
     right: 5px;  
@@ -18,7 +18,7 @@ header {
     height: 3em;  
     display: flex; 
     align-items: center;  
-    box-shadow: 0 0 25px 0 #B6D592;
+    box-shadow: 0 0 25px 0 #D6CC99;
     border-radius: 1.5625em;
 }
 header * {  
@@ -80,15 +80,15 @@ header * {
 }
 .inleiding_title, .why_title, .interview_title{
     width: 100%;
-    background-color: #B6D592;
+    background-color: #D6CC99;
     font-size: 4em;
-    color: #FEFBE1;
+    color: #445D48;
 }
 
 .inleiding_text, .why_text, .interview_text{
     margin: 2em;
     font-size: 1.4em;
-    color: #5BC5F2;
+    color: #001524;
 }
 .icon{
     height: 2em;
