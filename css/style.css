@@ -8,7 +8,8 @@ body{
 
 /* Home page */
 /* Header */
-header {  
+header {
+    border: 3px solid #B6D592;
     background-color: #FEFBE1;  
     position: fixed;  
     left: 5px;  
@@ -17,7 +18,7 @@ header {
     height: 3em;  
     display: flex; 
     align-items: center;  
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 25px 0 #B6D592;
     border-radius: 1.5625em;
 }
 header * {  
