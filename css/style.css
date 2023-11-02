@@ -9,6 +9,7 @@ body{
 /* Home page */
 /* Header */
 header {
+    z-index: 2;
     border: 3px solid #FDE5D4;
     background-color: #445D48;  
     position: fixed;  
@@ -88,7 +89,7 @@ header * {
 .inleiding_text, .why_text, .interview_text{
     margin: 2em;
     font-size: 1.4em;
-    color: #001524;
+    color: #FDE5D4;
 }
 .icon{
     height: 2em;
