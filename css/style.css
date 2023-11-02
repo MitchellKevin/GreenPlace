@@ -44,12 +44,6 @@ body{
     display: flex;
     text-align: center;
 }
-/* .why{
-    text-align: left !important;
-}
-.interview{
-    text-align: right !important;
-} */
 .inleiding_title, .why_title, .interview_title{
     width: 100%;
     background-color: #B6D592;
@@ -69,6 +63,34 @@ body{
 .icon:hover{
     animation: ease-in;
     transform: scale(1.1,1.1);
+}
+/*  */
+/* sidePage css */
+.intro{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.items{
+    margin: 0.5em;
+    justify-content: space-between;
+    text-align: end;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 8em;
+    height: 8em;
+}
+.info{
+    margin-right: 1em;
 }
 
 
