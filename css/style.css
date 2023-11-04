@@ -118,7 +118,7 @@ p{
     margin: 0.5em;
     justify-content: space-between;
     text-align: end;
-    border: 3px # solid;
+    border: 3px #FDE5D4 solid;
     display: flex;
     flex-direction: row;
 }
@@ -132,6 +132,7 @@ p{
 }
 .info{
     margin-right: 1em;
+    color: #D6CC99;
 }
 
 
