@@ -114,6 +114,9 @@ p{
     flex-direction: column;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 .items{
     margin: 0.5em;
     justify-content: space-between;
@@ -136,14 +139,26 @@ p{
 }
 
 /* slider */
-
+.info_items{
+    position: relative;
+    bottom: 16em;
+    margin: 2em;
+    text-align: center;
+}
+.imgSlider h1{
+    color: #D6CC99;
+    position: relative;
+    top: 1em;
+    font-size: 3em;
+}
 .imgSlider {
     height: 100vh;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .slider {
+    margin-top: 2em;
     position: relative;
     width: 50%;
     overflow: hidden;
