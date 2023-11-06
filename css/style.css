@@ -117,6 +117,8 @@ p{
 a{
     text-decoration: none;
 }
+
+
 .items{
     margin: 0.5em;
     justify-content: space-between;
@@ -141,7 +143,7 @@ a{
 /* slider */
 .info_items{
     position: relative;
-    bottom: 16em;
+    bottom: 13em;
     margin: 2em;
     text-align: center;
 }
@@ -160,7 +162,7 @@ a{
 .slider {
     margin-top: 2em;
     position: relative;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
 }
 .images {
@@ -168,7 +170,8 @@ a{
     width: 100%;
 }
 .images img {
-    height: 200px;
+    border-radius: 12.5%;
+    height: 250px;
     width: 100%;
     transition: all 0.15s ease;
 }
