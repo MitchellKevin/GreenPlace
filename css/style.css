@@ -106,7 +106,12 @@ header * {
 p{
     color: #FDE5D4;
 }
-
+.intro h1{
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    font-size: 3em;
+    color: #D6CC99;
+}
 .intro{
     margin: 2em;
     display: flex;
