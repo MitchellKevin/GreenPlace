@@ -201,7 +201,7 @@ a{
     margin: 5px;
 }
 .dots label:hover {background: #D6CC99;}
-#book1:checked ~ .m1 {
+#img1:checked ~ .m1 {
     margin-left: 0;
 }
 #img2:checked ~ .m2 {
