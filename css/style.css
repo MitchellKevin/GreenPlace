@@ -140,7 +140,9 @@ a{
     width: 8em;
     height: 8em;
 }
-.info{
+.info{  
+    font-size: 1.2em;
+    width: 6em;
     margin-right: 1em;
     color: #D6CC99;
 }
@@ -192,11 +194,11 @@ a{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: solid #fff 3px;
+    border: solid #D6CC99 3px;
     transition: all 0.15s ease;
     margin: 5px;
 }
-.dots label:hover {background: #fff;}
+.dots label:hover {background: #D6CC99;}
 #book1:checked ~ .m1 {
     margin-left: 0;
 }
@@ -206,9 +208,9 @@ a{
 #img3:checked ~ .m3 {
     margin-left: -200%;
 }
-#img4:checked ~ .m4 {
+/* #img4:checked ~ .m4 {
     margin-left: -300%;
-}
+} */
 /* Animations */
 
 @keyframes animate{
