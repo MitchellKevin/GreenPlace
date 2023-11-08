@@ -72,7 +72,9 @@ header * {
     animation: animate 3s infinite;
 }
 .Globe{
-    animation: zoom 6s ease-in infinite;
+    margin: 0 !important;
+    justify-content: flex-start !important;
+    /* animation: zoom 6s ease-in infinite; */
 }
 .inleiding, .why, .interview{
     flex-direction: column;
