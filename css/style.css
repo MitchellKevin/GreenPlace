@@ -30,7 +30,7 @@ header {
     border-radius: 1.5625em;
 }
 header * {  
-    display: inline;  
+    display: flex;  
     }  
     header li {  
     margin: 0.5em;  
