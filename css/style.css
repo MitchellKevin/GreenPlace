@@ -134,6 +134,7 @@ a{
     border: 3px #FDE5D4 solid;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .box{
     display: flex;
@@ -145,7 +146,6 @@ a{
 }
 .info{  
     font-size: 1.2em;
-    width: 6em;
     margin-right: 1em;
     color: #D6CC99;
 }
@@ -158,10 +158,16 @@ a{
     text-align: center;
 }
 .imgSlider h1{
+    text-align: center;
     color: #D6CC99;
     position: relative;
     top: 1em;
     font-size: 3em;
+}
+.imgSlider .custom{
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 2.5em !important;
 }
 .imgSlider {
     height: 100vh;
