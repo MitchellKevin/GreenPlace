@@ -233,5 +233,19 @@ a{
     }
 }
 /*  */
-
-
+/* Footer */
+footer{
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #D6CC99;
+}
+footer p{
+    color: black;
+}
+footer img{
+    width: 4em;
+    height: 4em;
+}
