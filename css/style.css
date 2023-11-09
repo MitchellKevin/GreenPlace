@@ -54,8 +54,7 @@ header * {
     height: 4em;
 }
 
-.title_home{
-    
+.title_home{    
     margin: 5em 3em 3em 3em;
     width: 22em;
 }
@@ -63,12 +62,16 @@ header * {
 .scroll_down_home{
     width: 5em;
 }
-
 .Title , .Globe, .Scroll_Down{
     display: flex;
     justify-content: center;
     margin-top: 1em;
 }
+/* .Title , .Globe, .Scroll_Down{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+} */
 .Scroll_Down{
     animation: animate 3s infinite;
 }
